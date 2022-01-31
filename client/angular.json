@@ -34,7 +34,10 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/ngx-bootstrap/datepicker/bs-datepicker.css",
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.less"
+
             ],
             "scripts": []
           },
@@ -79,10 +82,7 @@
               "browserTarget": "client:build:production"
             },
             "development": {
-              "browserTarget": "client:build:development"
-              /*"sslCert": "./ssl/localhost.cer",*/
-              /*"sslKey": "./ssl/localhost.pfx",*/
-              /*"ssl": true*/
+              "browserTarget": "client:build:development"             
             }
           },
           "defaultConfiguration": "development"
